@@ -1,0 +1,23 @@
+.extra .extra-title{
+    text-align: center;
+    margin: 2rem 1rem;
+}
+.extra-content a{
+    margin: 0.4rem;
+}
+.extra-content p{
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width:576px) {
+    .extra-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:992px) {
+    .extra-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

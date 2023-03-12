@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aravind S">
+        <meta name="description" content="Recipes Webpage">
+        <link rel="icon" href="web-lobo.jpg" type="Image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <title>Smile Resipes</title>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="nav-bar">
+            <div class="nav-head ">
+                <div class="nav-logo">
+                    <a href="index.html"><img src="logo.png" alt="logo" title="Wellcome" width="200px" height="50px"></a>
+                </div>
+                <div class="nav-links ">
+                    <ul>
+                        <li><a href="index.html">Menu</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Tags</a></li>
+                        <li><a href="#">Recipes</a></li>
+                    </ul>
+        
+                </div>
+                <button class="nav-btn">
+                    Contact
+                </button>
+                <div class="bars">
+                    <a href="#" class="b-bars">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- End-Navigation Bar -->
+        <!-- Page -->
+        <div class="page">
+
+         <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2023 <span class="footer-logo"><b>Smile Recipes</b></span> developed by </p>
+                <p><span class="footer-author"><b>Aravind S</b></span></p>
+            </div>
+        </footer>
+        <!-- End-Footer -->
+        </div>
+        <!-- End-Page -->
+        <script src="script.js"></script>
+    </body>
+</html>

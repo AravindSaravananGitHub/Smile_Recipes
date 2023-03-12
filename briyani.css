@@ -1,0 +1,137 @@
+/*
+====================
+Briyani Box - Start
+====================
+*/
+/*
+====================
+Briyani img - Start
+====================
+*/
+.briyani-box{
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.briyani-img{
+    margin-bottom: 1rem;
+}
+.briyani-img img{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.briyani-img h4{
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    text-transform: uppercase;
+}
+.briyani-img p{
+    padding: 1rem;
+    letter-spacing: 0.03rem;
+    padding: 3px;
+}
+/*
+====================
+Briyani img - End
+====================
+*/
+/*
+====================
+Briyani content - Start
+====================
+*/
+.briyani-content{
+    margin-bottom: 1rem;
+}
+.briyani-content h3{
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+.briyani-content p{
+    
+    padding: 1rem;
+    text-align: justify;
+    text-indent: 3rem;
+}
+/*
+====================
+Briyani content - End
+====================
+*/
+/*
+====================
+briyani-ingredients - Start
+====================
+*/
+.briyani-ingredients{
+    margin: 1rem;
+    text-align: justify;
+}
+.briyani-ingredients h3{
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+}
+.briyani-ingredients ul li{
+    list-style-position: inside;
+    padding-left: 10px;
+    padding-bottom: 0.5rem;
+    list-style-type:square;
+}
+/*
+====================
+briyani-ingredients - End
+====================
+*/
+/*
+====================
+briyani-direction - Start
+====================
+*/
+.briyani-direction{
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #FC427B;
+}
+.briyani-direction h3,
+.briyani-direction h4{
+    padding-top: 1rem;
+    text-transform: uppercase;
+}
+.briyani-direction h3{
+    margin-bottom: 1rem;
+}
+.briyani-direction h4{
+    margin-bottom: 0.5rem;
+    border-top: 3px solid #FC427B;
+}
+.briyani-direction p{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    text-indent: 3rem;
+}
+/*
+====================
+briyani-direction - End
+====================
+*/
+@media (min-width:776px) {
+    .for-576px{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:992px) {
+    .for-992px{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #briyani-image{
+        height: 250px;
+        width: 350px;
+    }
+}
+/*
+====================
+Briyani Box - End
+====================
+*/
